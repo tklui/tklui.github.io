@@ -1,10 +1,56 @@
 <html>
-  <head>
-    <title>Testing link</title>
-  </head>
-  <body>
-  <h2>Linked page #2<h2>
-  <p>This is the page that should ideally be linked to by the first page.  <em>Ideally.</em><p>
-  <a href = "html/index.html">Clicking this should send you back, again <i>ideally</i>.</a>
-  </body>
+	<head>
+		<title>Web Design</title>
+	<style>
+		body {
+			color: black;
+			background-color: white;
+			font-family: 'Open Sans', Calibri, sans-serif;
+			margin: 0;
+		}
+		header {
+			color: white;
+			background-color: steelblue;
+		}
+		main {
+			border-left: 1px dotted lightgray;
+			border-right: 1px dotted lightgray;
+			margin: 0 10%;
+			padding: 2em 1em;
+		}
+    }
+		main a {
+			color: black;
+		}
+		main a:hover {
+			color: dimgray;
+		}
+		footer {
+			color: dimgray;
+			background-color: lightgray;
+			border-top: 2px solid dimgray;
+			font-size: small;
+			padding: 1em 0;
+			text-align: center;
+      
+		}
+		footer a {
+			color: black;
+		}
+		footer a:hover {
+			color: dimgray;
+		}
+	</style>
+	</head>
+
+	<header>
+		<h1>Alternate page test</h1>
+	</header>
+
+	<main>
+		<h2>LINK BACK TO FIRST PAGE</h2>
+    <a href="index">This should ideally send you back to the first page</a>
+	</main>
+
+	</body>
 </html>
